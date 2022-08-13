@@ -1,0 +1,52 @@
+.film__card {
+  width: 309px;
+
+  transition: transform ease-in-out 150ms;
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    width: 336px;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 280px;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    transition: transform ease-in-out 150ms;
+  }
+}
+
+.film__card-poster {
+  display: block;
+  width: inherit;
+  height: inherit;
+  border-radius: 5px;
+}
+
+.film__card-name {
+  margin-top: 8px;
+  margin-bottom: 0px;
+
+  font-family: var(--font);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  text-transform: uppercase;
+}
+
+.film__card-genres {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: var(--font);
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  color: var(--bgcolor_main);
+
+  text-transform: capitalize;
+}

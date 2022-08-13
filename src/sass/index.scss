@@ -1,0 +1,25 @@
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+
+@import './global/global';
+@import './variables/variables';
+@import './global/card-container';
+@import './components/loader-square';
+
+@import './components/main_header';
+@import './components/library_header';
+@import './components/switcher';
+
+
+@import './components/film_card';
+
+@import './components/film_modal';
+
+@import './components/main_footer';
+@import './components/footer_modal';
+@import './components/team_card';
+
+@import './components/pagination';
+@import './components/btnToTop';
+@import './components/loader';
+
+@import './components/searchByGenres';

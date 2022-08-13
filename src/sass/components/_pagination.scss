@@ -1,0 +1,96 @@
+.pagination {
+  margin: 30px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-class-first {
+  background-color: #efefef;
+}
+
+.custom-class-last {
+  background-color: #efefef;
+}
+
+.tui-page-btn {
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  // align-items: center;
+  padding: 10 0px;
+  text-transform: capitalize;
+  border: none;
+  color: inherit;
+}
+
+.tui-page-btn {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.tui-page-btn .tui-ico-prev::before {
+  content: '';
+
+  display: inline-block;
+
+  width: 16px;
+  height: 8px;
+  transform: rotate(180deg);
+  // top: 50%;
+  // /* set margin-top = icon height/2 */
+  // padding-left: 16px;
+  margin-top: 4px;
+  // right: 70%;
+  background: transparent url('../images/arrow.svg') no-repeat center center;
+}
+
+.tui-page-btn .tui-ico-next::after {
+  content: '';
+  // position: absolute;
+  display: inline-block;
+  // background-size: cover;
+  /* set size for custom icons */
+  width: 16px;
+  height: 8px;
+  // transform: rotate(180deg);
+  // top: 50%;
+  // /* set margin-top = icon height/2 */
+  // padding-left: 16px;
+  margin-top: 4px;
+  // right: 70%;
+  background: transparent url('../images/arrow.svg') no-repeat center center;
+}
+
+.tui-is-selected {
+  background-color: #ff7619;
+  color: black;
+}
+
+button {
+  background: none;
+}
+
+.tui-page-btn:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f0;
+}
+
+.tui-is-disabled {
+  background-color: #e2e2e2;
+  color: #666666;
+  opacity: 0.3;
+  pointer-events: none;
+}
+.tui-is-selected:hover {
+  background-color: #ff7619;
+}
+
+.custom-class-prev {
+  margin-right: 10px;
+}
+
+.custom-class-next {
+  margin-left: 10px;
+}
