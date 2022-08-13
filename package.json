@@ -2,10 +2,10 @@
   "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://GodDet1.github.io/Filmoteka",
+  "homepage": "https://yana-mironyak.github.io/filmoteka/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Filmoteka/"
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GodDet1/Filmoteka/issues"
+    "url": "https://github.com/yana-mironyak/filmoteka/issues"
   },
   "dependencies": {
     "axios": "^0.27.2",
