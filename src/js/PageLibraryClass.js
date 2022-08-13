@@ -73,7 +73,6 @@ export default class LibraryPage extends FetchAndRender {
   }
 
   pagination(data) {
-    console.log(data);
     if (data === null || data.length === 0) {
       if (document.querySelector('.pagination')) {
         document.querySelector('.pagination').remove();
